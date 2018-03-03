@@ -58,7 +58,7 @@ function initialize() {
 
     if (stage == 4) { // stage four
         if (enemies.length == 0) {
-            screen("tutorial complete", "it does not get any easier")
+            screen("tutorial complete", "37 left")
 
             if (keyIsDown(82)) { // stage five enemy spawner
                 stagecount++
@@ -74,7 +74,7 @@ function initialize() {
 
     if (stage == 5) { // stage five
         if (enemies.length == 0) {
-            screen("doing good so far", "keep up the good work")
+            screen("5", "34 left")
 
             if (keyIsDown(82)) { // stage six enemy spawner
                 stage++
@@ -92,7 +92,7 @@ function initialize() {
 
     if (stage == 6) { // stage six
         if (enemies.length == 0) {
-            screen("remember to dash", "getting hit is bad")
+            screen("6", "35 left")
 
             if (keyIsDown(82)) { // stage seven enemy spawner
                 stage++
@@ -109,7 +109,7 @@ function initialize() {
 
     if (stage == 7) { // stage seven
         if (enemies.length == 0) {
-            screen("who let the dogs out", "funny joke")
+            screen("7", "34 left")
             if (keyIsDown(82)) { // stage eight
                 stage++
                 stagecount++
@@ -122,7 +122,7 @@ function initialize() {
 
     if (stage == 8) { // stage eight
         if (enemies.length == 0) {
-            screen("double trouble", "have patience")
+            screen("8", "33 left")
 
             if (keyIsDown(82)) { // stage nine enemy spawner
                 stage++
@@ -137,7 +137,7 @@ function initialize() {
 
     if (stage == 9) { // stage nine
         if (enemies.length == 0) {
-            screen("stay hydrated", "water is good for you")
+            screen("9", "32 left")
             if (keyIsDown(82)) { // stage ten enemy spawner
                 stage++
                 stagecount++
@@ -152,7 +152,7 @@ function initialize() {
 
     if (stage == 10) { // stage ten
         if (enemies.length == 0) {
-            screen("health kits restored", "three quarters left")
+            screen("health kits restored", "31 left")
             if (keyIsDown(82)) { // stage eleven enemy spawner
                 stage++
                 stagecount++
@@ -171,7 +171,7 @@ function initialize() {
 
     if (stage == 11) { // stage eleven
         if (enemies.length == 0) {
-            screen("great moves", "keep it up")
+            screen("11", "30 left")
             if (keyIsDown(82)) { // stage twelve enemy spawner
                 stage++
                 stagecount++
@@ -186,7 +186,7 @@ function initialize() {
 
     if (stage == 12) { // stage twelve
         if (enemies.length == 0) {
-            screen("fun fact", "only one enemy is interrupted when attacked")
+            screen("12", "29 left")
             if (keyIsDown(82)) { // stage thirteen enemy spawner
                 stage++
                 stagecount++
@@ -203,7 +203,7 @@ function initialize() {
 
     if (stage == 13) { // stage thirteen
         if (enemies.length == 0) {
-            screen("play in a well lit room", "keep the eyesight intact")
+            screen("13", "28 left")
             if (keyIsDown(82)) { // stage fourteen enemy spawner
                 stage++
                 stagecount++
@@ -223,7 +223,7 @@ function initialize() {
 
     if (stage == 14) { // stage fourteen
         if (enemies.length == 0) {
-            screen("triple the pain", "there is no time limit")
+            screen("14", "27 left")
             if (keyIsDown(82)) { // stage fifteen enemy spawner
                 stage++
                 stagecount++
@@ -238,7 +238,7 @@ function initialize() {
 
     if (stage == 15) { // stage fifteen
         if (enemies.length == 0) {
-            screen("do not panic", "be in control")
+            screen("15", "26 left")
             if (keyIsDown(82)) { // stage sixteen enemy spawner
                 stage++
                 stagecount++
@@ -259,7 +259,7 @@ function initialize() {
 
     if (stage == 16) { // stage sixteen
         if (enemies.length == 0) {
-            screen("look before you cross", "it could save your life")
+            screen("16", "25 left")
             if (keyIsDown(82)) { // stage seventeen enemy spawner
                 stage++
                 stagecount++
@@ -274,7 +274,7 @@ function initialize() {
 
     if (stage == 17) { // stage seventeen
         if (enemies.length == 0) {
-            screen("watch your step", "words of wisdom")
+            screen("17", "24 left")
             if (keyIsDown(82)) { // stage eighteen enemy spawner
                 stage++
                 stagecount++
@@ -290,7 +290,7 @@ function initialize() {
 
     if (stage == 18) { // stage eighteen
         if (enemies.length == 0) {
-            screen("multiply by two", "carry the four")
+            screen("18", "23 left")
             if (keyIsDown(82)) { // stage nineteen enemy spawner
                 stage++
                 stagecount++
@@ -308,7 +308,7 @@ function initialize() {
 
     if (stage == 19) { // stage nineteen
         if (enemies.length == 0) {
-            screen("more dogs", "fun")
+            screen("19", "22 left")
             if (keyIsDown(82)) { // stage twenty enemy spawner
                 stage++
                 stagecount++
@@ -327,7 +327,7 @@ function initialize() {
 
     if (stage == 20) { // stage twenty
         if (enemies.length == 0) {
-            screen("health kits restored", "doing good so far")
+            screen("health kits restored", "21 left")
             if (keyIsDown(82)) { // stage twenty one enemy spawner
                 stage++
                 stagecount++
@@ -352,7 +352,7 @@ function initialize() {
 
     if (stage == 21) { // stage twenty one
         if (enemies.length == 0) {
-            screen("this was a stage before", "except now its slightly harder")
+            screen("21", "20 left")
             if (keyIsDown(82)) { // stage twenty two enemy spawner
                 stage++
                 stagecount++
@@ -375,7 +375,7 @@ function initialize() {
 
     if (stage == 22) { // stage twenty two
         if (enemies.length == 0) {
-            screen("stay calm", "watch your footing")
+            screen("22", "19 left")
             if (keyIsDown(82)) { // stage twenty three enemy spawner
                 stage++
                 stagecount++
@@ -399,7 +399,7 @@ function initialize() {
 
     if (stage == 23) { // stage twenty three
         if (enemies.length == 0) {
-            screen("watch out", "a scary monster appraches")
+            screen("23", "18 left")
             if (keyIsDown(82)) { // stage twenty four enemy spawner
                 stage++
                 stagecount++
@@ -414,7 +414,7 @@ function initialize() {
 
     if (stage == 24) { // stage twenty four
         if (enemies.length == 0) {
-            screen("that was not very scary", "what could possibly be next")
+            screen("24", "17 left")
             if (keyIsDown(82)) { // stage twenty five enemy spawner
                 stage++
                 stagecount++
@@ -432,7 +432,7 @@ function initialize() {
 
     if (stage == 25) { // stage twenty five
         if (enemies.length == 0) {
-            screen("horde mode", "fun sometimes")
+            screen("25", "16 left")
             if (keyIsDown(82)) { // stage twenty six enemy spawner
                 stage++
                 stagecount++
@@ -452,7 +452,7 @@ function initialize() {
 
     if (stage == 26) { // stage twenty six
         if (enemies.length == 0) {
-            screen("concentrate", "do not lose focus")
+            screen("26", "15 left")
             if (keyIsDown(82)) { // stage twenty seven enemy spawner
                 stage++
                 stagecount++
@@ -472,7 +472,7 @@ function initialize() {
 
     if (stage == 27) { // stage twenty seven
         if (enemies.length == 0) {
-            screen("a fish with no eyes", "a fsh")
+            screen("27", "14 left")
             if (keyIsDown(82)) { // stage twenty eight enemy spawner
                 stage++
                 stagecount++
@@ -494,7 +494,7 @@ function initialize() {
 
     if (stage == 28) { // stage twenty eight
         if (enemies.length == 0) {
-            screen("theres 6 now", "good level design")
+            screen("28", "13 left")
             if (keyIsDown(82)) { // stage twenty nine enemy spawner
                 stage++
                 stagecount++
@@ -518,7 +518,7 @@ function initialize() {
 
     if (stage == 29) { // stage twenty nine
         if (enemies.length == 0) {
-            screen("the dogs are back", "thanks obama")
+            screen("29", "12 left")
             if (keyIsDown(82)) { // stage thirty enemy spawner 
                 stage++
                 stagecount++
@@ -540,7 +540,7 @@ function initialize() {
 
     if (stage == 30) { // stage thirty
         if (enemies.length == 0) {
-            screen("health kits restored", "not too shabby")
+            screen("health kits restored", "11 left")
             if (keyIsDown(82)) { // stage thirty one enemy spawner
                 stage++
                 stagecount++
@@ -563,7 +563,7 @@ function initialize() {
 
     if (stage == 31) { // stage thirty one
         if (enemies.length == 0) {
-            screen("final stretch", "only ten to go")
+            screen("31", "10 left")
             if (keyIsDown(82)) { // stage thirty two enemy spawner
                 stage++
                 stagecount++
@@ -585,7 +585,7 @@ function initialize() {
 
     if (stage == 32) { // stage thirty two
         if (enemies.length == 0) {
-            screen("eat a salad", "delicious and nutritious")
+            screen("32", "9 left")
             if (keyIsDown(82)) { // stage thirty three enemy spawner
                 stage++
                 stagecount++
@@ -603,7 +603,7 @@ function initialize() {
 
     if (stage == 33) { // stage thirty three
         if (enemies.length == 0) {
-            screen("think fast", "remember to dash")
+            screen("33", "8 left")
             if (keyIsDown(82)) { // stage thirty four enemy spawner 
                 stage++
                 stagecount++
@@ -621,7 +621,7 @@ function initialize() {
 
     if (stage == 34) { // stage thirty four 
         if (enemies.length == 0) {
-            screen("that was fun", "this one is too")
+            screen("34", "7 left")
             if (keyIsDown(82)) { // stage thirty five enemy spawner
                 stage++
                 stagecount++
@@ -640,7 +640,7 @@ function initialize() {
 
     if (stage == 35) { // stage thirty five 
         if (enemies.length == 0) {
-            screen("stay organized", "words to live by")
+            screen("35", "6 left")
             if (keyIsDown(82)) { // stage thirty six enemy spawner
                 stage++
                 stagecount++
@@ -660,7 +660,7 @@ function initialize() {
 
     if (stage == 36) { // stage thirty six 
         if (enemies.length == 0) {
-            screen("prepare yourself", "i am truly sorry")
+            screen("36", "5 left")
             if (keyIsDown(82)) { // stage thirty seven enemy spawner
                 stage++
                 stagecount++
@@ -682,7 +682,7 @@ function initialize() {
 
     if (stage == 37) { // stage thirty seven 
         if (enemies.length == 0) {
-            screen("so close", "yet so far")
+            screen("37", "4 left")
             if (keyIsDown(82)) { // stage thirty eight enemy spawner
                 stage++
                 stagecount++
@@ -706,7 +706,7 @@ function initialize() {
 
     if (stage == 38) { // stage thirty eight
         if (enemies.length == 0) {
-            screen("hope you can multitask", "this one is tricky")
+            screen("38", "3 left")
             if (keyIsDown(82)) { // stage thirty nine enemy spawner
                 stage++
                 stagecount++
@@ -726,7 +726,7 @@ function initialize() {
 
     if (stage == 39) { // stage thirty nine
         if (enemies.length == 0) {
-            screen("keep going", "there is one left")
+            screen("39", "2 left")
             if (keyIsDown(82)) { // stage forty enemy spawner
                 stage++
                 stagecount++
@@ -750,7 +750,7 @@ function initialize() {
 
     if (stage == 40) { // stage forty 
         if (enemies.length == 0) {
-            screen("health kits restored", "think about what you have done")
+            screen("40", "1 left")
             if (keyIsDown(82)) {
                 stage++
                 stagecount++
