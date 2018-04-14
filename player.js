@@ -129,7 +129,7 @@ function Player() {
     }
     this.heal = function () {
 
-        if (frames7 > 19 && frames7 < 21 && this.hp > 0) {
+        if (frames7 > 19 && frames7 < 21) {
             this.hp = 5
             this.kits--
         }
