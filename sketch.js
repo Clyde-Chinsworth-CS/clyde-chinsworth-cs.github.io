@@ -64,6 +64,7 @@ function draw() {
     if (player.hp > 0) { // if player hp reaches 0, remove control
         player.move()
         player.attack()
+        player.heal()
     }
 
     player.show()
